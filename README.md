@@ -27,3 +27,13 @@ jgyhc, jgyhc@foxmail.com.com
 ## License
 
 MJContactsManager is available under the MIT license. See the LICENSE file for more info.
+
+## 使用方法
+
+```
+    _manager = [[MJContactsManager alloc] init];
+    [self.manager JudgeAddressBookPowerWithViewController:self resultBlock:^(NSString *contactName, NSString *contactMobile) {
+        NSLog(@"contactName:%@", contactName);
+        NSLog(@"contactMobile:%@", contactMobile);
+    }];
+```
