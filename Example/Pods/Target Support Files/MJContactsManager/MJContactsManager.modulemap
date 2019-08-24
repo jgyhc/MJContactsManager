@@ -1,0 +1,6 @@
+framework module MJContactsManager {
+  umbrella header "MJContactsManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

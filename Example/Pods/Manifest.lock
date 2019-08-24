@@ -1,0 +1,16 @@
+PODS:
+  - MJContactsManager (0.1.0)
+
+DEPENDENCIES:
+  - MJContactsManager (from `../`)
+
+EXTERNAL SOURCES:
+  MJContactsManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJContactsManager: c44feb5261a26934ba381a7f47146c4db07ae987
+
+PODFILE CHECKSUM: 9f38b5b8af4734a07654060262a1ffeda79bf364
+
+COCOAPODS: 1.7.4

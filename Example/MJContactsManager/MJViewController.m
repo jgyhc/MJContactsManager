@@ -7,9 +7,10 @@
 //
 
 #import "MJViewController.h"
+#import <MJContactsManager.h>
 
 @interface MJViewController ()
-
+@property (nonatomic, strong) MJContactsManager * manager;
 @end
 
 @implementation MJViewController
@@ -24,6 +25,19 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)handlerEvent:(id)sender {
+    [self.manager JudgeAddressBookPowerWithViewController:self resultBlock:^(NSString *contactName, NSString *contactMobile) {
+        NSLog(@"contactName:%@", contactName);
+        NSLog(@"contactMobile:%@", contactMobile);
+    }];
+}
+
+- (MJContactsManager *)manager {
+    if (!_manager) {
+        _manager = [[MJContactsManager alloc] init];
+    }
+    return _manager;
 }
 
 @end

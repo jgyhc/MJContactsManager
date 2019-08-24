@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		2ACB30951E498B8C3041176D /* Pods_MJContactsManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJContactsManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		385BEC23A7CB9CB65A3F26BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4BC91AE2852BC117088A99F0 /* MJContactsManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MJContactsManager.podspec; path = ../MJContactsManager.podspec; sourceTree = "<group>"; };
+		385BEC23A7CB9CB65A3F26BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4BC91AE2852BC117088A99F0 /* MJContactsManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MJContactsManager.podspec; path = ../MJContactsManager.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MJContactsManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJContactsManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		D127BDD7737012843321E265 /* Pods-MJContactsManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJContactsManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-MJContactsManager_Example/Pods-MJContactsManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E58C13BB4CB0F15459BA7C2B /* Pods-MJContactsManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJContactsManager_Example.release.xcconfig"; path = "Target Support Files/Pods-MJContactsManager_Example/Pods-MJContactsManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3F492C07F34B0BCA28A807A /* Pods_MJContactsManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJContactsManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB4344B18FC110341046C851 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FB4344B18FC110341046C851 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				CDF250FDB1A713F22892A7D3 /* Pods-MJContactsManager_Tests.debug.xcconfig */,
 				CA8DDD04EA33697D5D634024 /* Pods-MJContactsManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jgyhc;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 75TU6G6GNQ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = D127BDD7737012843321E265 /* Pods-MJContactsManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75TU6G6GNQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MJContactsManager/MJContactsManager-Prefix.pch";
 				INFOPLIST_FILE = "MJContactsManager/MJContactsManager-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = E58C13BB4CB0F15459BA7C2B /* Pods-MJContactsManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 75TU6G6GNQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MJContactsManager/MJContactsManager-Prefix.pch";
 				INFOPLIST_FILE = "MJContactsManager/MJContactsManager-Info.plist";
